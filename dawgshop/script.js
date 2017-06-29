@@ -1,5 +1,5 @@
 document.getElementById('go').onclick = function() {
-    var textInput = $('#text-input').val();
-    var dawgifiedtext = inputText + ", dawg";
-    $('output').interHTML = dawgifiedText;
+    var inputText = document.getElementById('#text-input').val();
+    var dawgifiedText = inputText + ", dawg";
+    document.getElementById('output').interHTML = dawgifiedText;
 }
